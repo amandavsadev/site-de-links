@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+/*Zerand o margin e padding de todos os elementos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*Usando flexbox para centralizar o conteúdo da página*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*cor do fundo da página*/
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(34,34,34,1) 59%, rgba(68,90,170,1) 100%) fixed;
+    margin-top: -8px;
+}
+
+.container{
+    width: 800px;
+    max-width: 800px;
+    max-height: 90vw;
+    height: auto;
+    /*margin: top, right, bottom e left*/
+    margin: 20px 10px 20px 10px;
+}
+
+/*Esta classe corresponde à área do link*/
+.link-box{
+    width: 100%;
+    max-width: 790px;
+    height: 55px;
+    border: solid 2px #445aaa;
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/*Estilizando os linls*/
+.link-box a{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #ffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*Efeito para quando o usuário passar o mouse em cima do link*/
+.link-box:hover{
+    background-color: #445aaa;
+    transition: 0.4s;
+}
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    height: 30px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}

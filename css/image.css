@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+.img-profile-box{
+    /*Área onde fica a imagem do perfil*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.img-profile{
+    width: 170px;
+    /*Border radius 50% para deixar a imagem redonda*/
+    border-radius: 30px;
+}
+
+/*Seu nome*/
+.img-profile-box h1{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+/*Seu cargo*/
+.img-profile-box h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+/*Estilizando Icons*/
+.icon{
+    margin-right: 15px;
+}
