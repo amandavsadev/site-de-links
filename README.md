@@ -3,4 +3,4 @@
 Projeto para portfólio: site com meus links de contato. A página - <strong>responsiva</strong> - foi desenvolvida na IDE Visual Studio Code com HTML e CSS. <br>
 Para acessá-lo, <a href="https://amandavsadev.github.io/site-de-links/"> Clique aqui</a>!</li>
 
-<img align="center" alt="Projeto" src="site-de-links.png">
+<img align="center" alt="Projeto" src="site.png">
